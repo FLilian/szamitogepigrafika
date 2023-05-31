@@ -1,0 +1,2 @@
+all: 
+	gcc -IIncludes/ Sources/main.c Sources/camera.c Sources/utils.c Sources/texture.c Sources/model.c Sources/draw.c Sources/objects.c Sources/init.c Sources/screen_message.c Sources/callbacks.c -std=c11 -lSOIL -lglut32 -lopengl32 -lglu32 -lm -o room.exe
